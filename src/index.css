@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blanchedalmond;
+  font-size: 30px;
+}
+
+.line {
+display: flex;
+gap: 60px;
+margin-bottom: 30px;
+}
+
+.person-line {
+display: flex;
+gap: 30px;
+margin-bottom: 18px;
+}
+
+.number {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 2px solid blanchedalmond;
+  text-align: center;
+  cursor: pointer;
+}
